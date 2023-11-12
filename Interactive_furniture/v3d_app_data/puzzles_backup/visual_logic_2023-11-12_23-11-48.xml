@@ -1,0 +1,64 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="-3.58716789633354" scrolly="340.155544786714" scale="0.6241985657254323">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="q8!6k/Zvn8~T{jGG$fEj" inline="false" x="90" y="-10">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="M1/LDUU/o$$:t~J*jc:%">
+          <field name="FIELDNAME">slab2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id=".e^Y5obE4rd_g:P:|NW}">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood_basecolor_1.jpg</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="8Hm.;OAY!:6*/Q2vS:Ug">
+              <field name="FIELDNAME">wood0</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id=",o9.K%AaY]k|pxNA._9_">
+              <field name="TEXT">wood_basecolor_1.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="oH*~;MSW(d%*ha4._1Ne" inline="false" x="70" y="110">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="q=]HUCb1Hm2B^tZW$#ow">
+          <field name="FIELDNAME">slab2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="replaceTexture" id="dHzhvH9/2/T435dG6y?z">
+          <mutation xmlns="http://www.w3.org/1999/xhtml" enabledoslot="false" flextexinput="false"></mutation>
+          <field name="OLD_TEX_NAME">wood_basecolor_1.jpg</field>
+          <value name="MATERIAL">
+            <shadow type="materialList" id="PX(l:jDcT!=7Zp^3D[[W">
+              <field name="FIELDNAME">wood0</field>
+            </shadow>
+          </value>
+          <value name="NEW_TEX_URL">
+            <shadow type="text" id="HxPtL+#k[i961L!u@F[k">
+              <field name="TEXT">wood_basecolor_2.jpg</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="532.8" viewport-y="37" viewport-w="367.2" viewport-h="289" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

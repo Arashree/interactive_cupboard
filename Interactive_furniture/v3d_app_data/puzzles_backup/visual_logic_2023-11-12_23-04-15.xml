@@ -1,0 +1,60 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="New Tab" type="CommonTab" active="true" scrollx="48.53176997622364" scrolly="117.75553563144055" scale="0.6241985657254323">
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id=".IxJFpS#@QK#z1xn|vB%" inline="false" x="30" y="170">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="pu+{eb.=3Svi$5yq`Y8~">
+          <field name="FIELDNAME">slab1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="mv{5-YBb_!=i6J`14_7O">
+          <value name="VALUE2">
+            <shadow type="materialList" id="rL1({b4dJ{8/eWx=2t?{">
+              <field name="FIELDNAME">wood1</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="~}Q6IJ#Cc|kCK`!hRfo.">
+              <field name="FIELDNAME">meuble</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+    <block xmlns="https://developers.google.com/blockly/xml" type="whenClicked" id="TdBX]e2^)j=npO?t33j." inline="false" x="63" y="287">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" adveventoptions="false" enableifmissed="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="EXc-pl:gJK:mDNCOk]_3">
+          <field name="FIELDNAME">slab2</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="assignMaterial" id="~!=b2@);g79i4,wSu4dz">
+          <value name="VALUE2">
+            <shadow type="materialList" id="%LBNEjmk8wc[*]8f~O9b">
+              <field name="FIELDNAME">wood2</field>
+            </shadow>
+          </value>
+          <value name="VALUE1">
+            <shadow type="objectList" id="}ywNI=%p9*@K}Us2s9/C">
+              <field name="FIELDNAME">meuble</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="532.8" viewport-y="37" viewport-w="367.2" viewport-h="289" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
